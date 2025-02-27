@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+2 Test suite,Chrome 132.0.6834.160,,,27-02-2025 20:19:10,27-02-2025 20:19:42,32.188s,PASSED
+,,,,,,,
+Test Cases/Click on appointment,Chrome 132.0.6834.160,Test case 3,,27-02-2025 20:19:10,27-02-2025 20:19:27,16.519s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.160,,,27-02-2025 20:19:11,27-02-2025 20:19:21,9.997s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 132.0.6834.160,,,27-02-2025 20:19:21,27-02-2025 20:19:24,2.857s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 132.0.6834.160,,,27-02-2025 20:19:24,27-02-2025 20:19:26,2.002s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Login""), 0)",Chrome 132.0.6834.160,,,27-02-2025 20:19:26,27-02-2025 20:19:27,0.947s,PASSED
+,,,,,,,
+Test Cases/Login positive,Chrome 132.0.6834.160,Test case 4,,27-02-2025 20:19:27,27-02-2025 20:19:42,14.989s,PASSED
+"callTestCase(findTestCase(""Click on appointment""), [:], STOP_ON_FAILURE)",Chrome 132.0.6834.160,,,27-02-2025 20:19:27,27-02-2025 20:19:37,10.196s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 132.0.6834.160,,,27-02-2025 20:19:37,27-02-2025 20:19:38,1.091s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 132.0.6834.160,,,27-02-2025 20:19:38,27-02-2025 20:19:40,1.253s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 132.0.6834.160,,,27-02-2025 20:19:40,27-02-2025 20:19:41,1.195s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 132.0.6834.160,,,27-02-2025 20:19:41,27-02-2025 20:19:41,0.532s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Logout""), 0)",Chrome 132.0.6834.160,,,27-02-2025 20:19:41,27-02-2025 20:19:42,0.339s,PASSED

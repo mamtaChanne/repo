@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+2 Test suite,Chrome 132.0.6834.160,,,27-02-2025 20:23:34,27-02-2025 20:24:18,44.416s,PASSED
+,,,,,,,
+Test Cases/Click on appointment,Chrome 132.0.6834.160,Test case 3,,27-02-2025 20:23:34,27-02-2025 20:23:59,24.650s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.160,,,27-02-2025 20:23:36,27-02-2025 20:23:53,16.892s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 132.0.6834.160,,,27-02-2025 20:23:53,27-02-2025 20:23:56,3.173s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 132.0.6834.160,,,27-02-2025 20:23:56,27-02-2025 20:23:58,1.992s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Login""), 0)",Chrome 132.0.6834.160,,,27-02-2025 20:23:58,27-02-2025 20:23:59,0.510s,PASSED
+,,,,,,,
+Test Cases/Login positive,Chrome 132.0.6834.160,Test case 4,,27-02-2025 20:23:59,27-02-2025 20:24:18,19.041s,PASSED
+"callTestCase(findTestCase(""Click on appointment""), [:], STOP_ON_FAILURE)",Chrome 132.0.6834.160,,,27-02-2025 20:24:00,27-02-2025 20:24:13,13.577s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 132.0.6834.160,,,27-02-2025 20:24:13,27-02-2025 20:24:14,1.107s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 132.0.6834.160,,,27-02-2025 20:24:14,27-02-2025 20:24:15,0.909s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 132.0.6834.160,,,27-02-2025 20:24:15,27-02-2025 20:24:17,1.528s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 132.0.6834.160,,,27-02-2025 20:24:17,27-02-2025 20:24:18,0.819s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Logout""), 0)",Chrome 132.0.6834.160,,,27-02-2025 20:24:18,27-02-2025 20:24:18,0.459s,PASSED

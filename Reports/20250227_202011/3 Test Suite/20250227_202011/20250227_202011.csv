@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+3 Test Suite,Chrome 132.0.6834.160,,,27-02-2025 20:20:21,27-02-2025 20:20:54,33.766s,PASSED
+,,,,,,,
+Test Cases/Verify login page,Chrome 132.0.6834.160,Test case 5,,27-02-2025 20:20:21,27-02-2025 20:20:42,20.847s,PASSED
+"callTestCase(findTestCase(""Click on appointment""), [:], STOP_ON_FAILURE)",Chrome 132.0.6834.160,,,27-02-2025 20:20:22,27-02-2025 20:20:41,18.809s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), 0)",Chrome 132.0.6834.160,,,27-02-2025 20:20:41,27-02-2025 20:20:41,0.452s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), 0)",Chrome 132.0.6834.160,,,27-02-2025 20:20:41,27-02-2025 20:20:42,0.399s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""), 0)",Chrome 132.0.6834.160,,,27-02-2025 20:20:42,27-02-2025 20:20:42,0.414s,PASSED
+,,,,,,,
+Test Cases/Negative login 1,Chrome 132.0.6834.160,Test case6,,27-02-2025 20:20:42,27-02-2025 20:20:54,12.240s,PASSED
+"callTestCase(findTestCase(""Click on appointment""), [:], STOP_ON_FAILURE)",Chrome 132.0.6834.160,,,27-02-2025 20:20:42,27-02-2025 20:20:51,8.282s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""test"")",Chrome 132.0.6834.160,,,27-02-2025 20:20:51,27-02-2025 20:20:52,0.971s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""P9ET2sDE0SE="")",Chrome 132.0.6834.160,,,27-02-2025 20:20:52,27-02-2025 20:20:52,0.708s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 132.0.6834.160,,,27-02-2025 20:20:52,27-02-2025 20:20:54,1.522s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5""), ""Login failed! Please ensure the username and password are valid."")",Chrome 132.0.6834.160,,,27-02-2025 20:20:54,27-02-2025 20:20:54,0.401s,PASSED
