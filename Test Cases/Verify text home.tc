@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case 14</description>
+   <name>Verify text home</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e93bad51-611b-4199-8802-e425fec43de3</testCaseGuid>
+</TestCaseEntity>

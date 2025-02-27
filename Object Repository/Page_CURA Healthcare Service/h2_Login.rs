@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h2</value>
-      <webElementGuid>ac5b1c0d-90f0-4ae9-91ac-66b0aadf73cb</webElementGuid>
+      <webElementGuid>16443c21-d4eb-413b-b3dd-6dfcb3dbe2be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Login</value>
-      <webElementGuid>fd3a5584-5e1c-4f72-a98f-f06fb1fff5b8</webElementGuid>
+      <webElementGuid>90d88708-a994-44ea-a96c-0dd18d97d55d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;login&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 text-center&quot;]/h2[1]</value>
-      <webElementGuid>a6e5e99b-8b8e-44c5-b340-3f48c37264a7</webElementGuid>
+      <webElementGuid>5c9e3021-11c9-4160-8d3f-f8dcd57163d8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='login']/div/div/div/h2</value>
-      <webElementGuid>c9dd998a-089a-47ab-94df-8518d5ee1393</webElementGuid>
+      <webElementGuid>7e59baa0-79fd-4f53-a0c4-23138e3e5a54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Appointment'])[1]/following::h2[1]</value>
-      <webElementGuid>2563b72a-6145-4108-a71d-1a613557ebe9</webElementGuid>
+      <webElementGuid>b8160e28-3969-49b4-8061-abad591d4aa1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='We Care About Your Health'])[1]/following::h2[1]</value>
-      <webElementGuid>8ddb8ec7-cb64-476b-926b-7ab14d8aa7d7</webElementGuid>
+      <webElementGuid>a39bcbf9-64c3-4e93-899a-aa25487063f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Demo account'])[1]/preceding::h2[1]</value>
-      <webElementGuid>e61c4dd6-fb0b-4166-ac27-9f0ceffa2790</webElementGuid>
+      <webElementGuid>aba4f74b-551e-49f9-ae91-87e835082948</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/preceding::h2[1]</value>
-      <webElementGuid>aec9cf38-176c-406a-bfff-ed32488255a4</webElementGuid>
+      <webElementGuid>ad96e2bb-a8ec-4f3b-9dd8-b330e6b20f2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h2</value>
-      <webElementGuid>2b2bd5c1-1fb8-4023-8401-45e7a3cbcb46</webElementGuid>
+      <webElementGuid>54e1daa4-9fa8-41ec-a077-728eb64f8c3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h2[(text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>4e11126c-d44d-49cc-87d3-2d7094c8f429</webElementGuid>
+      <webElementGuid>2000b4a3-09c8-4bbc-8989-17e3a8ec328d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+5 Test Suite,Chrome 132.0.6834.160,,,27-02-2025 21:46:10,27-02-2025 21:48:13,2m - 2.814s,PASSED
+,,,,,,,
+Test Cases/Logout,Chrome 132.0.6834.160,Test Case 9,,27-02-2025 21:46:10,27-02-2025 21:47:52,1m - 41.084s,PASSED
+"callTestCase(findTestCase(""Login positive""), [:], STOP_ON_FAILURE)",Chrome 132.0.6834.160,,,27-02-2025 21:46:11,27-02-2025 21:47:47,1m - 36.309s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 132.0.6834.160,,,27-02-2025 21:47:47,27-02-2025 21:47:48,0.560s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 132.0.6834.160,,,27-02-2025 21:47:48,27-02-2025 21:47:48,0.500s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Logout""))",Chrome 132.0.6834.160,,,27-02-2025 21:47:49,27-02-2025 21:47:50,1.041s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 132.0.6834.160,,,27-02-2025 21:47:50,27-02-2025 21:47:50,0.359s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 132.0.6834.160,,,27-02-2025 21:47:50,27-02-2025 21:47:51,0.692s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Login""), 0)",Chrome 132.0.6834.160,,,27-02-2025 21:47:51,27-02-2025 21:47:51,0.392s,PASSED
+closeBrowser(),Chrome 132.0.6834.160,,,27-02-2025 21:47:51,27-02-2025 21:47:52,0.531s,PASSED
+,,,,,,,
+Test Cases/Verify appointment page,Chrome 132.0.6834.160,Test case 10,,27-02-2025 21:47:52,27-02-2025 21:48:13,21.215s,PASSED
+"callTestCase(findTestCase(""Login positive""), [:], STOP_ON_FAILURE)",Chrome 132.0.6834.160,,,27-02-2025 21:47:52,27-02-2025 21:48:11,18.666s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Make Appointment""), ""Make Appointment"")",Chrome 132.0.6834.160,,,27-02-2025 21:48:11,27-02-2025 21:48:11,0.404s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), 0)",Chrome 132.0.6834.160,,,27-02-2025 21:48:11,27-02-2025 21:48:12,0.467s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Chrome 132.0.6834.160,,,27-02-2025 21:48:12,27-02-2025 21:48:12,0.396s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""), 0)",Chrome 132.0.6834.160,,,27-02-2025 21:48:12,27-02-2025 21:48:12,0.332s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""), 0)",Chrome 132.0.6834.160,,,27-02-2025 21:48:12,27-02-2025 21:48:13,0.410s,PASSED
