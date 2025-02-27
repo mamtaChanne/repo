@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case2</description>
+   <name>verify page 1 header</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d81e99ef-f99f-4221-9969-fd066fed6f25</testCaseGuid>
+</TestCaseEntity>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>1 Test Suite</name>
+   <name>2 Test suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,19 +10,19 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>5f5f83a2-fe8f-4b74-aec8-b8af13d94fd2</testSuiteGuid>
+   <testSuiteGuid>70419d94-b588-4854-af52-c44366e955a6</testSuiteGuid>
    <testCaseLink>
-      <guid>88b3f05b-f951-4974-9d67-97a86c5e538b</guid>
+      <guid>0c696d20-c665-497b-87ec-74478adde457</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/verify first page</testCaseId>
+      <testCaseId>Test Cases/Click on appointment</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>3bcd1137-bb55-48f6-afce-85bf0f58136a</guid>
+      <guid>9b7a4f83-ba3a-433f-b3b1-aa727b4d7c28</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/verify page 1 header</testCaseId>
+      <testCaseId>Test Cases/Login positive</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
