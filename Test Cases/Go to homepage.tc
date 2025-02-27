@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case 11</description>
+   <name>Go to homepage</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fab8e056-30df-4bb9-bb3d-493a2229f5cf</testCaseGuid>
+</TestCaseEntity>
