@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>TestCase1</description>
+   <name>verify first page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b7c6e7dd-6ce2-4467-827f-3513c1236805</testCaseGuid>
+</TestCaseEntity>
