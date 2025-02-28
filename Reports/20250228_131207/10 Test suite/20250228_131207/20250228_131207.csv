@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+10 Test suite,Chrome 132.0.6834.160,orange hrm,,28-02-2025 13:12:23,28-02-2025 13:15:02,2m - 38.553s,PASSED
+,,,,,,,
+Test Cases/Orange hrm verify header,Chrome 132.0.6834.160,test case16,,28-02-2025 13:12:24,28-02-2025 13:12:44,20.401s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.160,,,28-02-2025 13:12:24,28-02-2025 13:12:37,12.116s,PASSED
+"navigateToUrl(""https://mamtabele-trials715.orangehrmlive.com/"")",Chrome 132.0.6834.160,,,28-02-2025 13:12:37,28-02-2025 13:12:42,5.254s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_OrangeHRM/img""))",Chrome 132.0.6834.160,,,28-02-2025 13:12:42,28-02-2025 13:12:43,1.611s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OrangeHRM/img""), """")",Chrome 132.0.6834.160,,,28-02-2025 13:12:43,28-02-2025 13:12:44,0.787s,PASSED
+,,,,,,,
+Test Cases/Orange hrm login,Chrome 132.0.6834.160,Test case 17,,28-02-2025 13:12:44,28-02-2025 13:13:20,35.440s,PASSED
+"callTestCase(findTestCase(""Orange hrm verify header""), [:], STOP_ON_FAILURE)",Chrome 132.0.6834.160,,,28-02-2025 13:12:45,28-02-2025 13:12:54,8.991s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.160,,,28-02-2025 13:12:54,28-02-2025 13:12:57,3.411s,PASSED
+"navigateToUrl(""https://mamtabele-trials715.orangehrmlive.com/"")",Chrome 132.0.6834.160,,,28-02-2025 13:12:57,28-02-2025 13:13:01,3.626s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Login_txtUsername""), ""admin"")",Chrome 132.0.6834.160,,,28-02-2025 13:13:01,28-02-2025 13:13:02,1.012s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Login_txtPassword""), ""Rh9ePu8J8PE="")",Chrome 132.0.6834.160,,,28-02-2025 13:13:02,28-02-2025 13:13:02,0.557s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/img_Login_icon show-icon""))",Chrome 132.0.6834.160,,,28-02-2025 13:13:02,28-02-2025 13:13:03,0.503s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Login_txtPassword""))",Chrome 132.0.6834.160,,,28-02-2025 13:13:03,28-02-2025 13:13:03,0.564s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Login_txtPassword""), ""N4wH1gbh6xA="")",Chrome 132.0.6834.160,,,28-02-2025 13:13:03,28-02-2025 13:13:04,0.503s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Login_txtPassword""))",Chrome 132.0.6834.160,,,28-02-2025 13:13:04,28-02-2025 13:13:04,0.459s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Login_txtPassword""), ""8tjxhkGuP+cB73upl0w6BQ=="")",Chrome 132.0.6834.160,,,28-02-2025 13:13:04,28-02-2025 13:13:05,0.534s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Chrome 132.0.6834.160,,,28-02-2025 13:13:05,28-02-2025 13:13:13,8.293s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Employee Management/div_Admin""), ""Admin"")",Chrome 132.0.6834.160,,,28-02-2025 13:13:13,28-02-2025 13:13:20,6.435s,PASSED
+,,,,,,,
+Test Cases/Orange hrm ngative login,Chrome 132.0.6834.160,Test case 18,,28-02-2025 13:13:20,28-02-2025 13:13:42,22.438s,PASSED
+"callTestCase(findTestCase(""Orange hrm verify header""), [:], STOP_ON_FAILURE)",Chrome 132.0.6834.160,,,28-02-2025 13:13:20,28-02-2025 13:13:28,7.726s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.160,,,28-02-2025 13:13:28,28-02-2025 13:13:31,2.984s,PASSED
+"navigateToUrl(""https://mamtabele-trials715.orangehrmlive.com/"")",Chrome 132.0.6834.160,,,28-02-2025 13:13:31,28-02-2025 13:13:34,3.724s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/input_Login_txtUsername""), 0)",Chrome 132.0.6834.160,,,28-02-2025 13:13:34,28-02-2025 13:13:35,0.402s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/input_Login_txtPassword""), 0)",Chrome 132.0.6834.160,,,28-02-2025 13:13:35,28-02-2025 13:13:35,0.341s,PASSED
+"setText(findTestObject(""Object Repository/Page_OrangeHRM/input_Login_txtUsername""), ""test"")",Chrome 132.0.6834.160,,,28-02-2025 13:13:35,28-02-2025 13:13:36,0.823s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/input_Login_txtUsername""))",Chrome 132.0.6834.160,,,28-02-2025 13:13:36,28-02-2025 13:13:36,0.431s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_OrangeHRM/input_Login_txtPassword""), ""P9ET2sDE0SE="")",Chrome 132.0.6834.160,,,28-02-2025 13:13:36,28-02-2025 13:13:37,0.476s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Chrome 132.0.6834.160,,,28-02-2025 13:13:37,28-02-2025 13:13:41,4.404s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_OrangeHRM/div_Retry Login                            _158b1f""))",Chrome 132.0.6834.160,,,28-02-2025 13:13:41,28-02-2025 13:13:42,0.577s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/div_Retry Login""), 0)",Chrome 132.0.6834.160,,,28-02-2025 13:13:42,28-02-2025 13:13:42,0.320s,PASSED
+,,,,,,,
+Test Cases/Orange hrm logout,Chrome 132.0.6834.160,Test case 19,,28-02-2025 13:13:42,28-02-2025 13:14:21,38.556s,PASSED
+"callTestCase(findTestCase(""Orange hrm login""), [:], STOP_ON_FAILURE)",Chrome 132.0.6834.160,,,28-02-2025 13:13:42,28-02-2025 13:14:14,32.001s,PASSED
+"click(findTestObject(""Object Repository/Page_Employee Management/span_Log Out""))",Chrome 132.0.6834.160,,,28-02-2025 13:14:14,28-02-2025 13:14:18,3.577s,PASSED
+"navigateToUrl(""https://mamtabele-trials715.orangehrmlive.com/auth/login"")",Chrome 132.0.6834.160,,,28-02-2025 13:14:18,28-02-2025 13:14:20,1.753s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_OrangeHRM/div_Login""))",Chrome 132.0.6834.160,,,28-02-2025 13:14:20,28-02-2025 13:14:20,0.566s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/div_Login""), 0)",Chrome 132.0.6834.160,,,28-02-2025 13:14:20,28-02-2025 13:14:21,0.364s,PASSED
+,,,,,,,
+Test Cases/Orange hrm click home,Chrome 132.0.6834.160,Test case 20,,28-02-2025 13:14:21,28-02-2025 13:15:02,40.912s,PASSED
+"callTestCase(findTestCase(""Orange hrm login""), [:], STOP_ON_FAILURE)",Chrome 132.0.6834.160,,,28-02-2025 13:14:21,28-02-2025 13:14:59,38.340s,PASSED
+"click(findTestObject(""Object Repository/Page_Employee Management/i_oxd_home_menu""))",Chrome 132.0.6834.160,,,28-02-2025 13:14:59,28-02-2025 13:15:00,0.473s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Employee Management/i_oxd_home_menu""), ""oxd_home_menu"")",Chrome 132.0.6834.160,,,28-02-2025 13:15:00,28-02-2025 13:15:01,0.949s,PASSED
+"click(findTestObject(""Object Repository/Page_Employee Management/a_ohrm_settings_sidebar-toggle""))",Chrome 132.0.6834.160,,,28-02-2025 13:15:01,28-02-2025 13:15:01,0.471s,PASSED
+"click(findTestObject(""Object Repository/Page_Employee Management/a_ohrm_settings_sidebar-toggle""))",Chrome 132.0.6834.160,,,28-02-2025 13:15:01,28-02-2025 13:15:02,0.474s,PASSED
+,,,,,,,
+Test Cases/Orange hrm left pannel,Chrome 132.0.6834.160,Test case 21,,28-02-2025 13:15:02,28-02-2025 13:15:02,0.175s,PASSED
+return null,Chrome 132.0.6834.160,,,28-02-2025 13:15:02,28-02-2025 13:15:02,0.001s,PASSED

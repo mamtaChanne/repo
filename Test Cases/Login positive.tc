@@ -6,6 +6,12 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>a3c87944-b578-42c5-9adc-2ece270bea21</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ab2ae9a1-0a8c-47ac-ba2c-032e7d6752a7</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'John Doe'</defaultValue>
       <description></description>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case 22</description>
+   <name>Gmail verify first page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>085c2c0c-41f3-4e7f-9387-1291d4334c84</testCaseGuid>
+</TestCaseEntity>

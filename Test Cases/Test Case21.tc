@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case 22</description>
+   <name>Test Case21</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>70cd9e45-7250-456e-ae7a-4c3a3c4aae03</testCaseGuid>
+   <variable>
+      <defaultValue>'No Comments'</defaultValue>
+      <description></description>
+      <id>28d20626-a34a-40c5-b2b7-f81c46dd1c01</id>
+      <masked>false</masked>
+      <name>comments</name>
+   </variable>
+   <variable>
+      <defaultValue>'&quot;make a appointment&quot;'</defaultValue>
+      <description></description>
+      <id>2332cdcb-18cb-48f7-9524-bc422a092328</id>
+      <masked>false</masked>
+      <name>comments1</name>
+   </variable>
+</TestCaseEntity>

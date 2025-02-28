@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="10 Test suite" time="158.553" tests="6" failures="0" errors="0">
+   <testsuite name="10 Test suite" tests="6" failures="0" errors="0" time="158.553" skipped="0" timestamp="28-02-2025T13:12:23" hostname="Hp - DESKTOP-U08CQCA" id="Test Suites/10 Test suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Hp\\git\\repo\\Reports\\20250228_131207\\10 Test suite\\20250228_131207"/>
+         <property name="logFiles" value="C:\\Users\\Hp\\git\\repo\\Reports\\20250228_131207\\10 Test suite\\20250228_131207\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Hp - DESKTOP-U08CQCA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 132.0.6834.160"/>
+         <property name="hostAddress" value="192.168.1.21"/>
+         <property name="sessionId" value="4637e8cd95ae72b468cee82c4ddf9f8e"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Orange hrm verify header" time="20.401" classname="Test Cases/Orange hrm verify header" status="PASSED">
+         <system-out><![CDATA[28-02-2025T13:12:24 - [TEST_CASE][PASSED] - Test Cases/Orange hrm verify header: Test Cases/Orange hrm verify header
+
+28-02-2025T13:12:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-02-2025T13:12:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-02-2025T13:12:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-02-2025T13:12:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-02-2025T13:12:37 - [TEST_STEP][PASSED] - navigateToUrl("https://mamtabele-trials715.orangehrmlive.com/"): Navigate to 'https://mamtabele-trials715.orangehrmlive.com/' successfully
+
+28-02-2025T13:12:42 - [MESSAGE][PASSED] - Navigate to 'https://mamtabele-trials715.orangehrmlive.com/' successfully
+
+28-02-2025T13:12:42 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_OrangeHRM/img")): Object: 'Object Repository/Page_OrangeHRM/img' is right clicked on
+
+28-02-2025T13:12:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/img' is right clicked on
+
+28-02-2025T13:12:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OrangeHRM/img"), ""): Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/img' are matched.
+
+28-02-2025T13:12:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/img' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Orange hrm login" time="35.44" classname="Test Cases/Orange hrm login" status="PASSED">
+         <system-out><![CDATA[28-02-2025T13:12:44 - [TEST_CASE][PASSED] - Test Cases/Orange hrm login: Test Cases/Orange hrm login
+
+28-02-2025T13:12:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Orange hrm verify header"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Orange hrm verify header' successfully
+
+28-02-2025T13:12:45 - [TEST_CASE][PASSED] - Test Cases/Orange hrm verify header: Test Cases/Orange hrm verify header
+
+28-02-2025T13:12:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-02-2025T13:12:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+28-02-2025T13:12:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-02-2025T13:12:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-02-2025T13:12:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-02-2025T13:12:49 - [TEST_STEP][PASSED] - navigateToUrl("https://mamtabele-trials715.orangehrmlive.com/"): Navigate to 'https://mamtabele-trials715.orangehrmlive.com/' successfully
+
+28-02-2025T13:12:53 - [MESSAGE][PASSED] - Navigate to 'https://mamtabele-trials715.orangehrmlive.com/' successfully
+
+28-02-2025T13:12:53 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_OrangeHRM/img")): Object: 'Object Repository/Page_OrangeHRM/img' is right clicked on
+
+28-02-2025T13:12:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/img' is right clicked on
+
+28-02-2025T13:12:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OrangeHRM/img"), ""): Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/img' are matched.
+
+28-02-2025T13:12:54 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/img' are matched.
+
+28-02-2025T13:12:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Orange hrm verify header' successfully
+
+28-02-2025T13:12:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-02-2025T13:12:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+28-02-2025T13:12:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-02-2025T13:12:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-02-2025T13:12:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-02-2025T13:12:57 - [TEST_STEP][PASSED] - navigateToUrl("https://mamtabele-trials715.orangehrmlive.com/"): Navigate to 'https://mamtabele-trials715.orangehrmlive.com/' successfully
+
+28-02-2025T13:13:01 - [MESSAGE][PASSED] - Navigate to 'https://mamtabele-trials715.orangehrmlive.com/' successfully
+
+28-02-2025T13:13:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Page_OrangeHRM/input_Login_txtUsername'
+
+28-02-2025T13:13:02 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_OrangeHRM/input_Login_txtUsername'
+
+28-02-2025T13:13:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtPassword"), "Rh9ePu8J8PE="): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword'
+
+28-02-2025T13:13:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword'
+
+28-02-2025T13:13:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/img_Login_icon show-icon")): Object: 'Object Repository/Page_OrangeHRM/img_Login_icon show-icon' is clicked on
+
+28-02-2025T13:13:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/img_Login_icon show-icon' is clicked on
+
+28-02-2025T13:13:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtPassword")): Object: 'Object Repository/Page_OrangeHRM/input_Login_txtPassword' is clicked on
+
+28-02-2025T13:13:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Login_txtPassword' is clicked on
+
+28-02-2025T13:13:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtPassword"), "N4wH1gbh6xA="): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword'
+
+28-02-2025T13:13:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword'
+
+28-02-2025T13:13:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtPassword")): Object: 'Object Repository/Page_OrangeHRM/input_Login_txtPassword' is clicked on
+
+28-02-2025T13:13:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Login_txtPassword' is clicked on
+
+28-02-2025T13:13:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtPassword"), "8tjxhkGuP+cB73upl0w6BQ=="): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword'
+
+28-02-2025T13:13:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword'
+
+28-02-2025T13:13:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+28-02-2025T13:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+28-02-2025T13:13:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Employee Management/div_Admin"), "Admin"): Actual text and expected text of test object 'Object Repository/Page_Employee Management/div_Admin' are matched.
+
+28-02-2025T13:13:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Employee Management/div_Admin' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Orange hrm ngative login" time="22.438" classname="Test Cases/Orange hrm ngative login" status="PASSED">
+         <system-out><![CDATA[28-02-2025T13:13:20 - [TEST_CASE][PASSED] - Test Cases/Orange hrm ngative login: Test Cases/Orange hrm ngative login
+
+28-02-2025T13:13:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Orange hrm verify header"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Orange hrm verify header' successfully
+
+28-02-2025T13:13:20 - [TEST_CASE][PASSED] - Test Cases/Orange hrm verify header: Test Cases/Orange hrm verify header
+
+28-02-2025T13:13:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-02-2025T13:13:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+28-02-2025T13:13:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-02-2025T13:13:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-02-2025T13:13:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-02-2025T13:13:23 - [TEST_STEP][PASSED] - navigateToUrl("https://mamtabele-trials715.orangehrmlive.com/"): Navigate to 'https://mamtabele-trials715.orangehrmlive.com/' successfully
+
+28-02-2025T13:13:27 - [MESSAGE][PASSED] - Navigate to 'https://mamtabele-trials715.orangehrmlive.com/' successfully
+
+28-02-2025T13:13:27 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_OrangeHRM/img")): Object: 'Object Repository/Page_OrangeHRM/img' is right clicked on
+
+28-02-2025T13:13:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/img' is right clicked on
+
+28-02-2025T13:13:27 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OrangeHRM/img"), ""): Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/img' are matched.
+
+28-02-2025T13:13:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/img' are matched.
+
+28-02-2025T13:13:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Orange hrm verify header' successfully
+
+28-02-2025T13:13:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-02-2025T13:13:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+28-02-2025T13:13:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-02-2025T13:13:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-02-2025T13:13:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-02-2025T13:13:31 - [TEST_STEP][PASSED] - navigateToUrl("https://mamtabele-trials715.orangehrmlive.com/"): Navigate to 'https://mamtabele-trials715.orangehrmlive.com/' successfully
+
+28-02-2025T13:13:34 - [MESSAGE][PASSED] - Navigate to 'https://mamtabele-trials715.orangehrmlive.com/' successfully
+
+28-02-2025T13:13:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtUsername"), 0): Object 'Object Repository/Page_OrangeHRM/input_Login_txtUsername' is present
+
+28-02-2025T13:13:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-02-2025T13:13:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/input_Login_txtUsername' is present
+
+28-02-2025T13:13:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtPassword"), 0): Object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword' is present
+
+28-02-2025T13:13:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-02-2025T13:13:35 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword' is present
+
+28-02-2025T13:13:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtUsername"), "test"): Text 'test' is set on object 'Object Repository/Page_OrangeHRM/input_Login_txtUsername'
+
+28-02-2025T13:13:36 - [MESSAGE][PASSED] - Text 'test' is set on object 'Object Repository/Page_OrangeHRM/input_Login_txtUsername'
+
+28-02-2025T13:13:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtUsername")): Object: 'Object Repository/Page_OrangeHRM/input_Login_txtUsername' is clicked on
+
+28-02-2025T13:13:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Login_txtUsername' is clicked on
+
+28-02-2025T13:13:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtPassword"), "P9ET2sDE0SE="): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword'
+
+28-02-2025T13:13:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword'
+
+28-02-2025T13:13:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+28-02-2025T13:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+28-02-2025T13:13:41 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_OrangeHRM/div_Retry Login                            _158b1f")): Object: 'Object Repository/Page_OrangeHRM/div_Retry Login                            _158b1f' is right clicked on
+
+28-02-2025T13:13:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/div_Retry Login                            _158b1f' is right clicked on
+
+28-02-2025T13:13:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_OrangeHRM/div_Retry Login"), 0): Object 'Object Repository/Page_OrangeHRM/div_Retry Login' is present
+
+28-02-2025T13:13:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-02-2025T13:13:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/div_Retry Login' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Orange hrm logout" time="38.556" classname="Test Cases/Orange hrm logout" status="PASSED">
+         <system-out><![CDATA[28-02-2025T13:13:42 - [TEST_CASE][PASSED] - Test Cases/Orange hrm logout: Test Cases/Orange hrm logout
+
+28-02-2025T13:13:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Orange hrm login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Orange hrm login' successfully
+
+28-02-2025T13:13:43 - [TEST_CASE][PASSED] - Test Cases/Orange hrm login: Test Cases/Orange hrm login
+
+28-02-2025T13:13:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Orange hrm verify header"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Orange hrm verify header' successfully
+
+28-02-2025T13:13:43 - [TEST_CASE][PASSED] - Test Cases/Orange hrm verify header: Test Cases/Orange hrm verify header
+
+28-02-2025T13:13:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-02-2025T13:13:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+28-02-2025T13:13:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-02-2025T13:13:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-02-2025T13:13:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-02-2025T13:13:46 - [TEST_STEP][PASSED] - navigateToUrl("https://mamtabele-trials715.orangehrmlive.com/"): Navigate to 'https://mamtabele-trials715.orangehrmlive.com/' successfully
+
+28-02-2025T13:13:49 - [MESSAGE][PASSED] - Navigate to 'https://mamtabele-trials715.orangehrmlive.com/' successfully
+
+28-02-2025T13:13:49 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_OrangeHRM/img")): Object: 'Object Repository/Page_OrangeHRM/img' is right clicked on
+
+28-02-2025T13:13:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/img' is right clicked on
+
+28-02-2025T13:13:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OrangeHRM/img"), ""): Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/img' are matched.
+
+28-02-2025T13:13:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/img' are matched.
+
+28-02-2025T13:13:50 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Orange hrm verify header' successfully
+
+28-02-2025T13:13:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-02-2025T13:13:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+28-02-2025T13:13:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-02-2025T13:13:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-02-2025T13:13:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-02-2025T13:13:53 - [TEST_STEP][PASSED] - navigateToUrl("https://mamtabele-trials715.orangehrmlive.com/"): Navigate to 'https://mamtabele-trials715.orangehrmlive.com/' successfully
+
+28-02-2025T13:13:57 - [MESSAGE][PASSED] - Navigate to 'https://mamtabele-trials715.orangehrmlive.com/' successfully
+
+28-02-2025T13:13:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Page_OrangeHRM/input_Login_txtUsername'
+
+28-02-2025T13:13:58 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_OrangeHRM/input_Login_txtUsername'
+
+28-02-2025T13:13:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtPassword"), "Rh9ePu8J8PE="): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword'
+
+28-02-2025T13:13:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword'
+
+28-02-2025T13:13:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/img_Login_icon show-icon")): Object: 'Object Repository/Page_OrangeHRM/img_Login_icon show-icon' is clicked on
+
+28-02-2025T13:13:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/img_Login_icon show-icon' is clicked on
+
+28-02-2025T13:13:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtPassword")): Object: 'Object Repository/Page_OrangeHRM/input_Login_txtPassword' is clicked on
+
+28-02-2025T13:13:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Login_txtPassword' is clicked on
+
+28-02-2025T13:13:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtPassword"), "N4wH1gbh6xA="): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword'
+
+28-02-2025T13:14:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword'
+
+28-02-2025T13:14:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtPassword")): Object: 'Object Repository/Page_OrangeHRM/input_Login_txtPassword' is clicked on
+
+28-02-2025T13:14:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Login_txtPassword' is clicked on
+
+28-02-2025T13:14:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtPassword"), "8tjxhkGuP+cB73upl0w6BQ=="): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword'
+
+28-02-2025T13:14:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword'
+
+28-02-2025T13:14:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+28-02-2025T13:14:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+28-02-2025T13:14:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Employee Management/div_Admin"), "Admin"): Actual text and expected text of test object 'Object Repository/Page_Employee Management/div_Admin' are matched.
+
+28-02-2025T13:14:14 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Employee Management/div_Admin' are matched.
+
+28-02-2025T13:14:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Orange hrm login' successfully
+
+28-02-2025T13:14:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Employee Management/span_Log Out")): Object: 'Object Repository/Page_Employee Management/span_Log Out' is clicked on
+
+28-02-2025T13:14:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Employee Management/span_Log Out' is clicked on
+
+28-02-2025T13:14:18 - [TEST_STEP][PASSED] - navigateToUrl("https://mamtabele-trials715.orangehrmlive.com/auth/login"): Navigate to 'https://mamtabele-trials715.orangehrmlive.com/auth/login' successfully
+
+28-02-2025T13:14:20 - [MESSAGE][PASSED] - Navigate to 'https://mamtabele-trials715.orangehrmlive.com/auth/login' successfully
+
+28-02-2025T13:14:20 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_OrangeHRM/div_Login")): Object: 'Object Repository/Page_OrangeHRM/div_Login' is right clicked on
+
+28-02-2025T13:14:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/div_Login' is right clicked on
+
+28-02-2025T13:14:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_OrangeHRM/div_Login"), 0): Object 'Object Repository/Page_OrangeHRM/div_Login' is present
+
+28-02-2025T13:14:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+28-02-2025T13:14:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_OrangeHRM/div_Login' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Orange hrm click home" time="40.912" classname="Test Cases/Orange hrm click home" status="PASSED">
+         <system-out><![CDATA[28-02-2025T13:14:21 - [TEST_CASE][PASSED] - Test Cases/Orange hrm click home: Test Cases/Orange hrm click home
+
+28-02-2025T13:14:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Orange hrm login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Orange hrm login' successfully
+
+28-02-2025T13:14:21 - [TEST_CASE][PASSED] - Test Cases/Orange hrm login: Test Cases/Orange hrm login
+
+28-02-2025T13:14:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Orange hrm verify header"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Orange hrm verify header' successfully
+
+28-02-2025T13:14:21 - [TEST_CASE][PASSED] - Test Cases/Orange hrm verify header: Test Cases/Orange hrm verify header
+
+28-02-2025T13:14:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-02-2025T13:14:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+28-02-2025T13:14:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-02-2025T13:14:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-02-2025T13:14:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-02-2025T13:14:24 - [TEST_STEP][PASSED] - navigateToUrl("https://mamtabele-trials715.orangehrmlive.com/"): Navigate to 'https://mamtabele-trials715.orangehrmlive.com/' successfully
+
+28-02-2025T13:14:28 - [MESSAGE][PASSED] - Navigate to 'https://mamtabele-trials715.orangehrmlive.com/' successfully
+
+28-02-2025T13:14:28 - [TEST_STEP][PASSED] - rightClick(findTestObject("Object Repository/Page_OrangeHRM/img")): Object: 'Object Repository/Page_OrangeHRM/img' is right clicked on
+
+28-02-2025T13:14:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/img' is right clicked on
+
+28-02-2025T13:14:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_OrangeHRM/img"), ""): Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/img' are matched.
+
+28-02-2025T13:14:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_OrangeHRM/img' are matched.
+
+28-02-2025T13:14:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Orange hrm verify header' successfully
+
+28-02-2025T13:14:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-02-2025T13:14:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+28-02-2025T13:14:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-02-2025T13:14:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-02-2025T13:14:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-02-2025T13:14:31 - [TEST_STEP][PASSED] - navigateToUrl("https://mamtabele-trials715.orangehrmlive.com/"): Navigate to 'https://mamtabele-trials715.orangehrmlive.com/' successfully
+
+28-02-2025T13:14:35 - [MESSAGE][PASSED] - Navigate to 'https://mamtabele-trials715.orangehrmlive.com/' successfully
+
+28-02-2025T13:14:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtUsername"), "admin"): Text 'admin' is set on object 'Object Repository/Page_OrangeHRM/input_Login_txtUsername'
+
+28-02-2025T13:14:36 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_OrangeHRM/input_Login_txtUsername'
+
+28-02-2025T13:14:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtPassword"), "Rh9ePu8J8PE="): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword'
+
+28-02-2025T13:14:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword'
+
+28-02-2025T13:14:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/img_Login_icon show-icon")): Object: 'Object Repository/Page_OrangeHRM/img_Login_icon show-icon' is clicked on
+
+28-02-2025T13:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/img_Login_icon show-icon' is clicked on
+
+28-02-2025T13:14:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtPassword")): Object: 'Object Repository/Page_OrangeHRM/input_Login_txtPassword' is clicked on
+
+28-02-2025T13:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Login_txtPassword' is clicked on
+
+28-02-2025T13:14:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtPassword"), "N4wH1gbh6xA="): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword'
+
+28-02-2025T13:14:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword'
+
+28-02-2025T13:14:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtPassword")): Object: 'Object Repository/Page_OrangeHRM/input_Login_txtPassword' is clicked on
+
+28-02-2025T13:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Login_txtPassword' is clicked on
+
+28-02-2025T13:14:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_Login_txtPassword"), "8tjxhkGuP+cB73upl0w6BQ=="): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword'
+
+28-02-2025T13:14:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Login_txtPassword'
+
+28-02-2025T13:14:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+28-02-2025T13:14:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+28-02-2025T13:14:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Employee Management/div_Admin"), "Admin"): Actual text and expected text of test object 'Object Repository/Page_Employee Management/div_Admin' are matched.
+
+28-02-2025T13:14:59 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Employee Management/div_Admin' are matched.
+
+28-02-2025T13:14:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Orange hrm login' successfully
+
+28-02-2025T13:14:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Employee Management/i_oxd_home_menu")): Object: 'Object Repository/Page_Employee Management/i_oxd_home_menu' is clicked on
+
+28-02-2025T13:15:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Employee Management/i_oxd_home_menu' is clicked on
+
+28-02-2025T13:15:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Employee Management/i_oxd_home_menu"), "oxd_home_menu"): Actual text and expected text of test object 'Object Repository/Page_Employee Management/i_oxd_home_menu' are matched.
+
+28-02-2025T13:15:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Employee Management/i_oxd_home_menu' are matched.
+
+28-02-2025T13:15:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Employee Management/a_ohrm_settings_sidebar-toggle")): Object: 'Object Repository/Page_Employee Management/a_ohrm_settings_sidebar-toggle' is clicked on
+
+28-02-2025T13:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Employee Management/a_ohrm_settings_sidebar-toggle' is clicked on
+
+28-02-2025T13:15:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Employee Management/a_ohrm_settings_sidebar-toggle")): Object: 'Object Repository/Page_Employee Management/a_ohrm_settings_sidebar-toggle' is clicked on
+
+28-02-2025T13:15:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Employee Management/a_ohrm_settings_sidebar-toggle' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Orange hrm left pannel" time="0.175" classname="Test Cases/Orange hrm left pannel" status="PASSED">
+         <system-out><![CDATA[28-02-2025T13:15:02 - [TEST_CASE][PASSED] - Test Cases/Orange hrm left pannel: Test Cases/Orange hrm left pannel
+
+28-02-2025T13:15:02 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-02-2025T13:12:23 - [TEST_SUITE][PASSED] - 10 Test suite: Test Cases/Orange hrm left pannel]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

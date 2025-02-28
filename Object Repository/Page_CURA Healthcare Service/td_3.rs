@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::td[37]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::td[9]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -18,7 +18,7 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=cell[name=&quot;3&quot;s] >> nth=1</value>
+         <value>internal:role=cell[name=&quot;3&quot;s] >> nth=0</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>0c485f21-b48b-4f86-b676-28b74ef62680</webElementGuid>
+      <webElementGuid>b7ae800f-80f0-4811-87a4-56875639371e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>new day</value>
-      <webElementGuid>98a7052e-88e8-471c-90fd-000d2dd25ded</webElementGuid>
+      <value>day</value>
+      <webElementGuid>67821b43-07b5-4fda-822d-1a36654c62ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,18 +45,74 @@
       <name>text</name>
       <type>Main</type>
       <value>3</value>
-      <webElementGuid>8644a3be-f391-4c82-b3c6-52cd9199d311</webElementGuid>
+      <webElementGuid>61690410-b6b6-4853-b923-662f2603342f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;datepicker datepicker-dropdown dropdown-menu datepicker-orient-left datepicker-orient-top&quot;]/div[@class=&quot;datepicker-days&quot;]/table[@class=&quot;table-condensed&quot;]/tbody[1]/tr[6]/td[@class=&quot;new day&quot;]</value>
-      <webElementGuid>14e0f67e-3e51-4b19-95c0-0841aff90f68</webElementGuid>
+      <value>/html[1]/body[1]/div[@class=&quot;datepicker datepicker-dropdown dropdown-menu datepicker-orient-left datepicker-orient-top&quot;]/div[@class=&quot;datepicker-days&quot;]/table[@class=&quot;table-condensed&quot;]/tbody[1]/tr[2]/td[@class=&quot;day&quot;]</value>
+      <webElementGuid>3e8f603b-79ec-4617-b7b4-04d26d6f75cb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sa'])[1]/following::td[9]</value>
+      <webElementGuid>e7194be2-2eae-4483-b810-3cf5e8c3570f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fr'])[1]/following::td[9]</value>
+      <webElementGuid>6950907f-3453-440b-8b1e-6c6df562f22e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/preceding::td[34]</value>
+      <webElementGuid>e4dbe3ed-5aaf-43f0-8ffd-3729037955c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/preceding::td[34]</value>
+      <webElementGuid>fed65fb6-0fd8-4a8f-8b2a-cdcdc493fd6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='3']/parent::*</value>
+      <webElementGuid>06ea5959-ed92-47a6-a6e1-b9b918bd00b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[2]</value>
+      <webElementGuid>5a02eaa4-4d88-4e93-88d9-ee96c5d58eca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '3' or . = '3')]</value>
+      <webElementGuid>653e0e99-bc64-4153-a71a-84981eb38bec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
@@ -94,13 +150,5 @@
       <type>Main</type>
       <value>//tr[6]/td[2]</value>
       <webElementGuid>9979b971-ec1e-4d89-89b9-16339a5ab5ba</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//td[(text() = '3' or . = '3')]</value>
-      <webElementGuid>e58acdb3-9086-4404-ae84-895fecc57588</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
