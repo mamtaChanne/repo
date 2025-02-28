@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Login_icon show-icon</name>
+   <tag></tag>
+   <elementGuidId>194a495a-2f14-40fc-af0a-c2d2bffc1832</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='frmLogin']/div[2]/div/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.icon.show-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=img[name=&quot;Show Password&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>368673cd-c3b0-4fcc-b0fe-0a1c97b8e5ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon show-icon</value>
+      <webElementGuid>fa21c0a9-1142-4cba-bb21-4dd40c0ec431</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Show Password</value>
+      <webElementGuid>0a1ffd62-4a7c-43c1-a5a0-232554b8c93c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/webres_678ca838ccb2b4.91366492/themes/default/images/login/oxd/visibility.svg</value>
+      <webElementGuid>cca521d8-37c2-4a04-a0e4-d9887722597c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;frmLogin&quot;)/div[@class=&quot;input-field&quot;]/div[@class=&quot;visibility-holder&quot;]/img[@class=&quot;icon show-icon&quot;]</value>
+      <webElementGuid>875ed4e9-cdc7-4a15-82bd-72f9aecf9c35</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='frmLogin']/div[2]/div/img</value>
+      <webElementGuid>b8a9cc35-bd60-4cb3-87b6-ea4800edd6a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@title='Show Password']</value>
+      <webElementGuid>aa7b5098-e562-4912-84f6-28413a6afa62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/img</value>
+      <webElementGuid>59a7f6ff-823d-4d31-b683-a015215dd1cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@title = 'Show Password' and @src = '/webres_678ca838ccb2b4.91366492/themes/default/images/login/oxd/visibility.svg']</value>
+      <webElementGuid>b9dcf664-9702-4bae-8a50-a8a09a9156d8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

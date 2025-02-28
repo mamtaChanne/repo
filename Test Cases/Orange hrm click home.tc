@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case 20</description>
+   <name>Orange hrm click home</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e1e66d5f-baa3-4111-9a09-b9437bf65ebc</testCaseGuid>
+</TestCaseEntity>

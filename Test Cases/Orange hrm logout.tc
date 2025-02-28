@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case 19</description>
+   <name>Orange hrm logout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>26d9f034-0675-4218-a9d4-3dce6f764da3</testCaseGuid>
+</TestCaseEntity>

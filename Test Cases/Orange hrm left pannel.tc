@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case 21</description>
+   <name>Orange hrm left pannel</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a1ef5a5b-cff9-40c3-8836-157c7e1557da</testCaseGuid>
+</TestCaseEntity>

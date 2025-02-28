@@ -6,4 +6,11 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>a3c87944-b578-42c5-9adc-2ece270bea21</testCaseGuid>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>ab2ae9a1-0a8c-47ac-ba2c-032e7d6752a7</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
 </TestCaseEntity>

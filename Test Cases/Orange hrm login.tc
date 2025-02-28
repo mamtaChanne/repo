@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case 17</description>
+   <name>Orange hrm login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3579b1df-7e05-4bd1-ba6b-11e6c764159f</testCaseGuid>
+</TestCaseEntity>
