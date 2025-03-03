@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_CURA Healthcare Service/th_",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027February 2025\u0027])[1]/following::th[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027«\u0027])[1]/following::th[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250303_140138/Test Suite 12/20250303_140143/Object Repository/Page_CURA Healthcare Service/th__neighbor.png"
+    }
+  ]
+}
