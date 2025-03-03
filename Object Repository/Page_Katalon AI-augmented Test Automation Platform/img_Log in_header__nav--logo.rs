@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Log in_header__nav--logo</name>
+   <tag></tag>
+   <elementGuidId>d674e830-46e8-49af-bf81-afd397c4bd44</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='hs_cos_wrapper_module_17218400955395']/header/section[2]/div/div/a/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.header__nav--logo</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Katalon Logo&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>90249e92-58f8-4b22-94e0-95781a15fa85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>header__nav--logo</value>
+      <webElementGuid>9031449f-525d-4ee0-80dd-b5bf748336a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://katalon.com/hubfs/katalon_logo%20(1).svg</value>
+      <webElementGuid>0cf336a0-3717-44ae-8281-0882b1c3103a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Katalon Logo</value>
+      <webElementGuid>4f646ac5-e046-4a83-87ef-8b25a7ef7fe2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hs_cos_wrapper_module_17218400955395&quot;)/header[@class=&quot;header bg-white&quot;]/section[@class=&quot;header__nav--main-wrapper&quot;]/div[@class=&quot;header__nav--main bg-white&quot;]/div[@class=&quot;header__nav--wrapper main-wrapper&quot;]/a[@class=&quot;header__nav--logo-link&quot;]/img[@class=&quot;header__nav--logo&quot;]</value>
+      <webElementGuid>c5587ea3-6882-4649-97fc-3d6295fd5c4b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='hs_cos_wrapper_module_17218400955395']/header/section[2]/div/div/a/img</value>
+      <webElementGuid>ec742e10-edc8-476c-954f-bbb7111e514b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Katalon Logo']</value>
+      <webElementGuid>62f5f765-8f0d-4262-8da0-e748e8c729a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//img</value>
+      <webElementGuid>eadb7e9a-2df5-4005-906e-4ea1b9ce5a2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://katalon.com/hubfs/katalon_logo%20(1).svg' and @alt = 'Katalon Logo']</value>
+      <webElementGuid>fc7a079d-663e-4920-b3d6-975196f650ca</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

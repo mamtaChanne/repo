@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 12,Chrome 132.0.6834.160,,,28-02-2025 19:03:55,28-02-2025 19:04:49,53.524s,PASSED
+,,,,,,,
+Test Cases/Test Case21,Chrome 132.0.6834.160,Test case 22,,28-02-2025 19:03:56,28-02-2025 19:04:49,52.873s,PASSED
+"DATA BINDING - {""(Default) comme..."":""\""make a appointment\""""}",,,,,,,
+"callTestCase(findTestCase(""Login positive""), [""username"":""John Doe""], STOP_ON_FAILURE)",Chrome 132.0.6834.160,,,28-02-2025 19:03:57,28-02-2025 19:04:33,35.498s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Hongkong CURA Healthcare Center"", true)",Chrome 132.0.6834.160,,,28-02-2025 19:04:33,28-02-2025 19:04:34,1.294s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Chrome 132.0.6834.160,,,28-02-2025 19:04:34,28-02-2025 19:04:34,0.524s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs""))",Chrome 132.0.6834.160,,,28-02-2025 19:04:34,28-02-2025 19:04:35,0.497s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Chrome 132.0.6834.160,,,28-02-2025 19:04:35,28-02-2025 19:04:35,0.495s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/th_""))",Chrome 132.0.6834.160,,,28-02-2025 19:04:35,28-02-2025 19:04:36,0.605s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_3""))",Chrome 132.0.6834.160,,,28-02-2025 19:04:36,28-02-2025 19:04:37,0.589s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), comments)",Chrome 132.0.6834.160,,,28-02-2025 19:04:37,28-02-2025 19:04:38,1.000s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 132.0.6834.160,,,28-02-2025 19:04:38,28-02-2025 19:04:39,1.936s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Go to Homepage""))",Chrome 132.0.6834.160,,,28-02-2025 19:04:39,28-02-2025 19:04:40,0.889s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 132.0.6834.160,,,28-02-2025 19:04:40,28-02-2025 19:04:41,0.633s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107""), ""Seoul CURA Healthcare Center"", true)",Chrome 132.0.6834.160,,,28-02-2025 19:04:41,28-02-2025 19:04:43,1.531s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/div_Apply for hospital readmission""))",Chrome 132.0.6834.160,,,28-02-2025 19:04:43,28-02-2025 19:04:43,0.525s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f""))",Chrome 132.0.6834.160,,,28-02-2025 19:04:43,28-02-2025 19:04:44,0.478s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_None_programs""))",Chrome 132.0.6834.160,,,28-02-2025 19:04:44,28-02-2025 19:04:44,0.470s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Visit Date (Required)_visit_date""))",Chrome 132.0.6834.160,,,28-02-2025 19:04:44,28-02-2025 19:04:45,0.506s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/td_3_1""))",Chrome 132.0.6834.160,,,28-02-2025 19:04:45,28-02-2025 19:04:45,0.564s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment""), comments1)",Chrome 132.0.6834.160,,,28-02-2025 19:04:45,28-02-2025 19:04:46,1.082s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Book Appointment""))",Chrome 132.0.6834.160,,,28-02-2025 19:04:46,28-02-2025 19:04:48,2.000s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Appointment Confirmation""), ""Appointment Confirmation"")",Chrome 132.0.6834.160,,,28-02-2025 19:04:48,28-02-2025 19:04:49,0.402s,PASSED
