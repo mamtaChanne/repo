@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite 15,Chrome 132.0.6834.160,,,03-03-2025 20:25:28,03-03-2025 20:29:21,3m - 53.034s,PASSED
+,,,,,,,
+Test Cases/TestCase 25,Chrome 132.0.6834.160,,,03-03-2025 20:25:29,03-03-2025 20:27:19,1m - 50.248s,PASSED
+"callTestCase(findTestCase(""Login positive""), [""username"":""John Doe""], STOP_ON_FAILURE)",Chrome 132.0.6834.160,,,03-03-2025 20:25:30,03-03-2025 20:27:19,1m - 49.584s,PASSED
+,,,,,,,
+Test Cases/Test case 26,Chrome 132.0.6834.160,,,03-03-2025 20:27:19,03-03-2025 20:27:44,24.720s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.160,,,03-03-2025 20:27:19,03-03-2025 20:27:23,3.175s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 132.0.6834.160,,,03-03-2025 20:27:23,03-03-2025 20:27:40,17.643s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 132.0.6834.160,,,03-03-2025 20:27:40,03-03-2025 20:27:43,2.311s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/strong_CURA Healthcare Service""), 0)",Chrome 132.0.6834.160,,,03-03-2025 20:27:43,03-03-2025 20:27:43,0.435s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85""), 0)",Chrome 132.0.6834.160,,,03-03-2025 20:27:43,03-03-2025 20:27:43,0.413s,PASSED
+closeBrowser(),Chrome 132.0.6834.160,,,03-03-2025 20:27:43,03-03-2025 20:27:44,0.528s,PASSED
+,,,,,,,
+Test Cases/Test Case 27,Chrome 132.0.6834.160,,,03-03-2025 20:27:44,03-03-2025 20:29:21,1m - 37.543s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.160,,,03-03-2025 20:27:44,03-03-2025 20:27:46,2.339s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 132.0.6834.160,,,03-03-2025 20:27:46,03-03-2025 20:28:59,1m - 12.801s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 132.0.6834.160,,,03-03-2025 20:28:59,03-03-2025 20:29:19,20.143s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x""), 0)",Chrome 132.0.6834.160,,,03-03-2025 20:29:19,03-03-2025 20:29:20,0.411s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-dribbble fa-fw fa-3x""))",Chrome 132.0.6834.160,,,03-03-2025 20:29:20,03-03-2025 20:29:21,0.640s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-dribbble fa-fw fa-3x""), 0)",Chrome 132.0.6834.160,,,03-03-2025 20:29:21,03-03-2025 20:29:21,0.370s,PASSED
+closeBrowser(),Chrome 132.0.6834.160,,,03-03-2025 20:29:21,03-03-2025 20:29:21,0.565s,PASSED
