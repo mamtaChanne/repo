@@ -8,7 +8,7 @@
       "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027«\u0027])[1]/following::th[2]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_CURA Healthcare Service/th__neighbor.png"
+      "pathToScreenshot": "Reports/20250303_124053/New Test Suite 13/20250303_124055/Object Repository/Page_CURA Healthcare Service/th__neighbor.png"
     }
   ]
 }

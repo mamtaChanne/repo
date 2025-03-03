@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1 Test Suite,,,,03-03-2025 13:40:24,03-03-2025 13:40:44,19.342s,FAILED
+,,,,,,,
+Test Cases/verify first page,,TestCase1,,03-03-2025 13:40:37,03-03-2025 13:40:38,1.315s,FAILED
+"openBrowser("""")",,,,03-03-2025 13:40:37,03-03-2025 13:40:38,1.199s,FAILED
+,,,,,,,
+Test Cases/verify page 1 header,,Test case2,,03-03-2025 13:40:42,03-03-2025 13:40:44,1.216s,FAILED
+"openBrowser("""")",,,,03-03-2025 13:40:42,03-03-2025 13:40:44,1.113s,FAILED
