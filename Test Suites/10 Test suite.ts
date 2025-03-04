@@ -24,6 +24,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Orange hrm login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6712d70a-8a96-4bd7-ab11-da40c231d0b8</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>dd4327f8-426a-4746-a0da-eddd5f5466bd</guid>
