@@ -23,7 +23,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://mamtabele-trials715.orangehrmlive.com/')
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Login_txtUsername'), 'admin')
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Login_txtUsername'), variable)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Login_txtPassword'), 'Rh9ePu8J8PE=')
 

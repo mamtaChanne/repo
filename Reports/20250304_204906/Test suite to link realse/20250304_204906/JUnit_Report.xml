@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test suite to link realse" time="39.016" tests="1" failures="0" errors="0">
+   <testsuite name="Test suite to link realse" tests="1" failures="0" errors="0" time="39.016" skipped="0" timestamp="04-03-2025T20:49:22" hostname="Hp - DESKTOP-U08CQCA" id="Test Suites/Test suite to link realse">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Hp\\git\\repo\\Reports\\20250304_204906\\Test suite to link realse\\20250304_204906"/>
+         <property name="logFiles" value="C:\\Users\\Hp\\git\\repo\\Reports\\20250304_204906\\Test suite to link realse\\20250304_204906\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Hp - DESKTOP-U08CQCA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 133.0.6943.142"/>
+         <property name="hostAddress" value="192.168.1.21"/>
+         <property name="sessionId" value="736beb6240efb93d6d15e589ecc161e4"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case 28" time="38.053" classname="Test Cases/Test Case 28" status="PASSED">
+         <system-out><![CDATA[04-03-2025T20:49:23 - [TEST_CASE][PASSED] - Test Cases/Test Case 28: Test Cases/Test Case 28
+
+04-03-2025T20:49:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-03-2025T20:49:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+04-03-2025T20:49:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-03-2025T20:49:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-03-2025T20:49:38 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+04-03-2025T20:49:53 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+04-03-2025T20:49:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+04-03-2025T20:49:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+04-03-2025T20:49:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare"), 0): Object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare' is present
+
+04-03-2025T20:49:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-03-2025T20:49:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare' is present
+
+04-03-2025T20:49:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+04-03-2025T20:49:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+04-03-2025T20:49:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+04-03-2025T20:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+04-03-2025T20:49:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+04-03-2025T20:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+04-03-2025T20:49:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars")): Object: 'Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+04-03-2025T20:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars' is clicked on
+
+04-03-2025T20:49:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+04-03-2025T20:50:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-03-2025T20:49:22 - [TEST_SUITE][PASSED] - Test suite to link realse: Test Cases/Test Case 28]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
