@@ -2,13 +2,13 @@
   "brokenTestObjects": [
     {
       "approved": true,
-      "testObjectId": "Object Repository/Page_CURA Healthcare Service/th_",
-      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027February 2025\u0027])[1]/following::th[1]",
+      "testObjectId": "Object Repository/Page_CURA Healthcare Service/a_Make Appointment",
+      "brokenLocator": "//a[@id\u003d\u0027btn-make-appointment\u0027]",
       "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027«\u0027])[1]/following::th[2]",
+      "proposedLocator": "//div/a",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_CURA Healthcare Service/th__neighbor.png"
+      "pathToScreenshot": ""
     },
     {
       "approved": true,
@@ -18,7 +18,7 @@
       "proposedLocator": "//div/a",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": ""
+      "pathToScreenshot": "Reports/20250303_213922"
     }
   ]
 }

@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite 16,Chrome 132.0.6834.160,,,03-03-2025 21:36:52,03-03-2025 21:38:01,1m - 8.606s,PASSED
+,,,,,,,
+Test Cases/Test Case 27,Chrome 132.0.6834.160,,,03-03-2025 21:36:52,03-03-2025 21:37:37,44.229s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.160,,,03-03-2025 21:36:53,03-03-2025 21:37:05,11.675s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 132.0.6834.160,,,03-03-2025 21:37:05,03-03-2025 21:37:32,27.137s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 132.0.6834.160,,,03-03-2025 21:37:32,03-03-2025 21:37:35,2.955s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x""), 0)",Chrome 132.0.6834.160,,,03-03-2025 21:37:35,03-03-2025 21:37:35,0.444s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-dribbble fa-fw fa-3x""))",Chrome 132.0.6834.160,,,03-03-2025 21:37:35,03-03-2025 21:37:36,0.613s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-dribbble fa-fw fa-3x""), 0)",Chrome 132.0.6834.160,,,03-03-2025 21:37:36,03-03-2025 21:37:36,0.340s,PASSED
+closeBrowser(),Chrome 132.0.6834.160,,,03-03-2025 21:37:36,03-03-2025 21:37:37,0.581s,PASSED
+,,,,,,,
+Test Cases/Test Case 28,Chrome 132.0.6834.160,,,03-03-2025 21:37:37,03-03-2025 21:38:01,23.876s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.160,,,03-03-2025 21:37:37,03-03-2025 21:37:40,3.079s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 132.0.6834.160,,,03-03-2025 21:37:40,03-03-2025 21:37:41,1.025s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 132.0.6834.160,,,03-03-2025 21:37:41,03-03-2025 21:37:56,15.232s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare""), 0)",Chrome 132.0.6834.160,,,03-03-2025 21:37:56,03-03-2025 21:37:57,0.525s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 132.0.6834.160,,,03-03-2025 21:37:57,03-03-2025 21:37:57,0.605s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 132.0.6834.160,,,03-03-2025 21:37:57,03-03-2025 21:37:58,0.471s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Login""))",Chrome 132.0.6834.160,,,03-03-2025 21:37:58,03-03-2025 21:37:59,1.536s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 132.0.6834.160,,,03-03-2025 21:37:59,03-03-2025 21:38:00,0.542s,PASSED
+closeBrowser(),Chrome 132.0.6834.160,,,03-03-2025 21:38:00,03-03-2025 21:38:01,0.514s,PASSED

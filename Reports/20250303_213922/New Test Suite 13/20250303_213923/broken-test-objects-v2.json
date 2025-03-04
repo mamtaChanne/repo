@@ -8,17 +8,7 @@
       "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027«\u0027])[1]/following::th[2]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_CURA Healthcare Service/th__neighbor.png"
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Page_CURA Healthcare Service/a_Make Appointment",
-      "brokenLocator": "//a[@id\u003d\u0027btn-make-appointment\u0027]",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "//div/a",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": ""
+      "pathToScreenshot": "Reports/20250303_213922/New Test Suite 13/20250303_213923/Object Repository/Page_CURA Healthcare Service/th__neighbor.png"
     }
   ]
 }
