@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite 17,Chrome 133.0.6943.142,,,05-03-2025 22:03:20,05-03-2025 22:07:34,4m - 14.081s,PASSED
+,,,,,,,
+Test Cases/New Test Case 30,Chrome 133.0.6943.142,,,05-03-2025 22:03:21,05-03-2025 22:04:16,55.361s,PASSED
+"openBrowser("""")",Chrome 133.0.6943.142,,,05-03-2025 22:03:21,05-03-2025 22:03:30,8.456s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 133.0.6943.142,,,05-03-2025 22:03:30,05-03-2025 22:03:31,0.975s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Google/img_Sign in_lnXdpd""), """")",Chrome 133.0.6943.142,,,05-03-2025 22:03:31,05-03-2025 22:04:14,43.567s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Google/input_Report inappropriate predictions_btnK""), 0)",Chrome 133.0.6943.142,,,05-03-2025 22:04:14,05-03-2025 22:04:15,0.472s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Google/input_Report inappropriate predictions_btnI""), """")",Chrome 133.0.6943.142,,,05-03-2025 22:04:15,05-03-2025 22:04:15,0.459s,PASSED
+closeBrowser(),Chrome 133.0.6943.142,,,05-03-2025 22:04:15,05-03-2025 22:04:16,0.744s,PASSED
+,,,,,,,
+Test Cases/New Test Case 32,Chrome 133.0.6943.142,,,05-03-2025 22:04:16,05-03-2025 22:05:06,49.444s,PASSED
+"openBrowser("""")",Chrome 133.0.6943.142,,,05-03-2025 22:04:17,05-03-2025 22:04:19,2.856s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 133.0.6943.142,,,05-03-2025 22:04:19,05-03-2025 22:05:04,44.942s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Google/a_Gmail""), ""Gmail"")",Chrome 133.0.6943.142,,,05-03-2025 22:05:04,05-03-2025 22:05:05,0.417s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Google/a_Images""), 0)",Chrome 133.0.6943.142,,,05-03-2025 22:05:05,05-03-2025 22:05:05,0.368s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Page_Google/a_Images_gb_B""))",Chrome 133.0.6943.142,,,05-03-2025 22:05:05,05-03-2025 22:05:06,0.460s,PASSED
+,,,,,,,
+Test Cases/New Test Case 33,Chrome 133.0.6943.142,,,05-03-2025 22:05:06,05-03-2025 22:06:04,58.621s,PASSED
+"openBrowser("""")",Chrome 133.0.6943.142,,,05-03-2025 22:05:06,05-03-2025 22:05:09,3.307s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 133.0.6943.142,,,05-03-2025 22:05:09,05-03-2025 22:06:03,53.825s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Google/a_""), 0)",Chrome 133.0.6943.142,,,05-03-2025 22:06:03,05-03-2025 22:06:04,0.766s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Google/a__1""), 0)",Chrome 133.0.6943.142,,,05-03-2025 22:06:04,05-03-2025 22:06:04,0.448s,PASSED
+,,,,,,,
+Test Cases/New Test Case34,Chrome 133.0.6943.142,,,05-03-2025 22:06:04,05-03-2025 22:06:31,26.944s,PASSED
+"openBrowser("""")",Chrome 133.0.6943.142,,,05-03-2025 22:06:04,05-03-2025 22:06:08,3.275s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 133.0.6943.142,,,05-03-2025 22:06:08,05-03-2025 22:06:30,22.037s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Google/a_""), 0)",Chrome 133.0.6943.142,,,05-03-2025 22:06:30,05-03-2025 22:06:30,0.338s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Google/a__1""), 0)",Chrome 133.0.6943.142,,,05-03-2025 22:06:30,05-03-2025 22:06:31,0.400s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Google/a__1_2""), 0)",Chrome 133.0.6943.142,,,05-03-2025 22:06:31,05-03-2025 22:06:31,0.346s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Google/a__1_2_3""), 0)",Chrome 133.0.6943.142,,,05-03-2025 22:06:31,05-03-2025 22:06:31,0.320s,PASSED
+,,,,,,,
+Test Cases/New Test Case31,Chrome 133.0.6943.142,,,05-03-2025 22:06:31,05-03-2025 22:07:05,33.657s,PASSED
+"openBrowser("""")",Chrome 133.0.6943.142,,,05-03-2025 22:06:32,05-03-2025 22:06:35,3.055s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 133.0.6943.142,,,05-03-2025 22:06:35,05-03-2025 22:06:55,20.548s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/textarea_Sign in_q""), ""testing"")",Chrome 133.0.6943.142,,,05-03-2025 22:06:55,05-03-2025 22:06:56,1.005s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/span_testing""))",Chrome 133.0.6943.142,,,05-03-2025 22:06:56,05-03-2025 22:06:57,1.123s,PASSED
+closeBrowser(),Chrome 133.0.6943.142,,,05-03-2025 22:06:57,05-03-2025 22:07:05,7.592s,PASSED
+,,,,,,,
+Test Cases/New Test Case 29,Chrome 133.0.6943.142,,,05-03-2025 22:07:05,05-03-2025 22:07:34,29.533s,PASSED
+"openBrowser("""")",Chrome 133.0.6943.142,,,05-03-2025 22:07:05,05-03-2025 22:07:07,2.108s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 133.0.6943.142,,,05-03-2025 22:07:07,05-03-2025 22:07:34,26.339s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Google/a_About""), 0)",Chrome 133.0.6943.142,,,05-03-2025 22:07:34,05-03-2025 22:07:34,0.474s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Google/a_Store""), 0)",Chrome 133.0.6943.142,,,05-03-2025 22:07:34,05-03-2025 22:07:34,0.368s,PASSED
