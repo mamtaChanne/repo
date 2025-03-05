@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Test Case 35</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>37c8ff00-dd21-4485-a534-40ae2d7d13d8</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>ba758da0-72cc-437d-8c5b-0f91a609991d</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/test</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>ba758da0-72cc-437d-8c5b-0f91a609991d</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Employee</value>
+      <variableId>90bbc938-bb6f-42fa-9c26-4b0519ef91d3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>ba758da0-72cc-437d-8c5b-0f91a609991d</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Department</value>
+      <variableId>8155621b-1fc5-4d9d-a90f-b6da302c6252</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John'</defaultValue>
+      <description></description>
+      <id>90bbc938-bb6f-42fa-9c26-4b0519ef91d3</id>
+      <masked>false</masked>
+      <name>employee</name>
+   </variable>
+   <variable>
+      <defaultValue>'Marketing'</defaultValue>
+      <description></description>
+      <id>8155621b-1fc5-4d9d-a90f-b6da302c6252</id>
+      <masked>false</masked>
+      <name>department</name>
+   </variable>
+</TestCaseEntity>
