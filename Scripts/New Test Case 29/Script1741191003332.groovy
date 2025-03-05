@@ -17,27 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Orange hrm verify header'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://mamtabele-trials715.orangehrmlive.com/')
+WebUI.navigateToUrl('https://www.google.com/')
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Login_txtUsername'), variable)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Google/a_About'), 0)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Login_txtPassword'), 'Rh9ePu8J8PE=')
-
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/img_Login_icon show-icon'))
-
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Login_txtPassword'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Login_txtPassword'), 'N4wH1gbh6xA=')
-
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Login_txtPassword'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Login_txtPassword'), '8tjxhkGuP+cB73upl0w6BQ==')
-
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Login'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Employee Management/div_Admin'), variable)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Google/a_Store'), 0)
 
